@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ramsa
+ *
+ */
+module JavaCollections {
+}
