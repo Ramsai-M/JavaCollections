@@ -33,19 +33,19 @@ public class HashSetDemo1 {
 		System.out.println(hs.contains("xyz"));//false
 		/*----------------------------------------------------------------------------*/
 		//isEmpty
-		System.out.println("is this HashSet is empty?: "+hs.isEmpty());
+		System.out.println("Is this HashSet is empty?: "+hs.isEmpty());
 		/*----------------------------------------------------------------------------*/
 		//Reading elements using for each loop;
-		System.out.println("Using For Each Loop: ");
+		System.out.print("Using For Each Loop: ");
 		for(Object e: hs) {
-			System.out.print(e+" ");
+			System.out.print(e+" "); //null A 100 Welcome true
 		}
 		/*----------------------------------------------------------------------------*/
 		//Reading elements using iterator method
-		System.out.println("\nUsing Iterator method: ");
+		System.out.print("\nUsing Iterator method: ");
 		Iterator it=hs.iterator();
 		while(it.hasNext()) {
-			System.out.print(it.next()+" ");
+			System.out.print(it.next()+" "); //null A 100 Welcome true
 		}
 		
 	}

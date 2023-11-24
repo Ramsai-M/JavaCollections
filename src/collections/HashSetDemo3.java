@@ -14,14 +14,14 @@ public class HashSetDemo3 {
 		set1.add(3);
 		set1.add(4);
 		set1.add(5);
-		System.out.println("HashSet 1 is: "+set1);
+		System.out.println("HashSet 1 is: "+set1); //[1, 2, 3, 4, 5]
 		
 		HashSet<Integer> set2=new HashSet<Integer>();
 		set2.add(3);
 		set2.add(4);
 		set2.add(5);
 		
-		System.out.println("HashSet 2 is: "+set2);
+		System.out.println("HashSet 2 is: "+set2); //[3, 4, 5]
 		/*----------------------------------------------------------------------------*/
 		//Union All
 		//set1.addAll(set2);
@@ -29,7 +29,7 @@ public class HashSetDemo3 {
 		/*----------------------------------------------------------------------------*/
 		//Intersection
 		//set1.retainAll(set2);
-		//System.out.println("Instersections: "+set1);//[3, 4, 5]
+		//System.out.println("Intersections: "+set1);//[3, 4, 5]
 		/*----------------------------------------------------------------------------*/
 		//difference or remove
 		//set1.removeAll(set2);

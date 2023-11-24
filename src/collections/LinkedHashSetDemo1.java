@@ -15,7 +15,7 @@ public class LinkedHashSetDemo1 {
 		set1.add(400);
 		set1.add(500);
 		
-		System.out.println("LinkedListSet: "+set1);
+		System.out.println("LinkedListSet: "+set1); //[100, 200, 300, 400, 500]
 		
 		//LinkedHashSet also supports all the methods which supports to HashSet
 		
